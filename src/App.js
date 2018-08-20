@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Bio from './Bio';
 import Contact from './Contact';
+import Blog from './Blog';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <Bio />
         <Contact />
+        <Blog />
       </div>
     );
   }
