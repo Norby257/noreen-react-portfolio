@@ -4,6 +4,7 @@ import './App.css';
 import Bio from './Bio';
 import Contact from './Contact';
 import Blog from './Blog';
+import {Route} from 'react-router-dom';
 
 class App extends Component {
   render() {
