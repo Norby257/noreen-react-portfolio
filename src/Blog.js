@@ -9,6 +9,9 @@ function Blog(props) {
             <p>
                 Bonus: Here's a techical paper that I contributed to:
             </p>
+            <div>
+                DIV FOR TESTING ROUTING for BLOG component
+            </div>
         </div>
     )
 }

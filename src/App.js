@@ -17,9 +17,19 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Bio />
-        <Contact />
-        <Blog />
+        <Route exact path='/' render={()=>(
+           <Bio />
+        )} />
+
+
+        <Route exact path='/contact' render={()=>(
+           <Contact />
+
+        )} />
+       <Route exact path ='/blog' render={()=> (
+          <Blog />
+
+       )} />
       </div>
     );
   }
