@@ -9,6 +9,9 @@ function Contact(props) {
     
    <a href="https://linkedin.com/in/nmaddenling/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin"></i></a>
             </div>
+            <div>
+                TEST DIV TO TEST ROUTING
+            </div>
         </div>
     )
 
