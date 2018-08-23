@@ -1,14 +1,14 @@
 import React from 'react';
-
+import  SocialMediaIcons from './SocialMediaIcons';
 function Contact(props) {
     return (
         <div>
             <p> React out to me about software. I enjoy learning about new libraries and technologies. </p>
             <div>
-            <a href="https://github.com/Norby257" rel="noopener noreferrer" target="_blank"> <i className="fab fa-github"></i></a>
+                <SocialMediaIcons />
     
-   <a href="https://linkedin.com/in/nmaddenling/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin"></i></a>
             </div>
+            
             <div>
                 TEST DIV TO TEST ROUTING
             </div>
