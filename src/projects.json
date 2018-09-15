@@ -3,21 +3,44 @@
     {
         "id": 1,
         "name": "GoodReads: Netflix but for books. litFlix",
-        "description": "As tom Haverford would say... punk ass book jockey"
+        "description": "As tom Haverford would say... punk ass book jockey",
+        "githubURL": "https://github.com/Norby257",
+        "HerokuLink": "link here",
+        "imageLink": "unsplash img here"
 
     },
 
     {
         "id": 2,
         "name": "React Redux App here: SURPRISE",
-        "description": "As tom Haverford would say... punk ass book jockey"
+        "description": "Would you Rather? ",
+        "githubURL": "https://github.com/Norby257",
+        "HerokuLink": "link here",
+        "imageLink": "unsplash img here"
+        
+        
 
     },
 
     {
         "id": 3,
-        "name": "Mobile Flashcards: Learn Arabic Finance Terms quickly",
-        "description": "Now you can say screenshot...without saying screenshot"
+        "name": "Mobile Flashcards: Learn Arabic Finance  & Tech Terms quickly",
+        "description": "Optimize your linkedIn profile in Arabic with finance and tech terms ",
+        "githubURL": "https://github.com/Norby257",
+        "HerokuLink": "link here",
+        "imageLink": "unsplash img here"
+        
+        
+    },
+
+    {
+        "id": 4,
+        "name": "Holiday: An Apartment Swapping Application",
+        "description": "Optimize your linkedIn profile in Arabic with finance and tech terms ",
+        "githubURL": "https://github.com/Norby257",
+        "HerokuLink": "https://holiday-apartment-swap.herokuapp.com/",
+        "imageLink": "unsplash img here"
+        
     }
 
 

@@ -5,6 +5,7 @@ import Bio from './Bio';
 import Contact from './Contact';
 import BlogList from './Blog';
 import {Route} from 'react-router-dom';
+import Projects from './projects.json'
 
 class App extends Component {
   render() {
