@@ -9,8 +9,6 @@ function SocialMediaIcons(props) {
 
                <a href="https://github.com/Norby257" rel="noopener noreferrer" target="_blank"> <i className="fab fa-twitter fa-5x"></i></a>
 
-
-
         </div>
 
     )

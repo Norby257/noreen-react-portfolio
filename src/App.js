@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Bio from './Bio';
 import Contact from './Contact';
-import Blog from './Blog';
+import BlogList from './Blog';
 import {Route} from 'react-router-dom';
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
 
         )} />
        <Route exact path ='/blog' render={()=> (
-          <Blog />
+          <BlogList />
 
        )} />
       </div>

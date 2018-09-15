@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Blog(props) {
+function BlogList(props) {
     return (
         <div>
             <p>
@@ -17,4 +17,4 @@ function Blog(props) {
 }
 
 
-export default Blog;
+export default BlogList;
