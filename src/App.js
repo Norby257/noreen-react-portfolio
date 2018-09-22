@@ -5,7 +5,9 @@ import Bio from './Bio';
 import Contact from './Contact';
 import BlogList from './Blog';
 import {Route} from 'react-router-dom';
-import Projects from './projects.json'
+import Projects from './projects.json';
+//  import ProjectList from './ProjectList'; 
+//   import Project from './Project';
 
 class App extends Component {
   render() {
@@ -20,6 +22,7 @@ class App extends Component {
         </p>
         <Route exact path='/' render={()=>(
            <Bio />
+
         )} />
 
 
