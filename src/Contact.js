@@ -1,6 +1,8 @@
 import React from 'react';
 import  SocialMediaIcons from './SocialMediaIcons';
-function Contact(props) {
+
+
+const Contact = (props) => {
     return (
         <div>
             <p> React out to me about software. I enjoy learning about new libraries and technologies. </p>
@@ -16,6 +18,4 @@ function Contact(props) {
     )
 
 }
-
-
 export default Contact; 

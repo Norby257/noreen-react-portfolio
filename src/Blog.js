@@ -1,6 +1,9 @@
 import React from 'react';
 
-function BlogList(props) {
+
+
+
+const BlogList = (props) => {
     return (
         <div>
             <p>
@@ -14,7 +17,6 @@ function BlogList(props) {
             </div>
         </div>
     )
+
 }
-
-
 export default BlogList;
