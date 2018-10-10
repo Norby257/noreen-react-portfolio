@@ -1,6 +1,5 @@
 import React from 'react'; 
-
-function SocialMediaIcons(props) {
+const  SocialMediaIcons = (props) => {
     return (
         <div>
                <a href="https://linkedin.com/in/nmaddenling/" rel="noopener noreferrer" target="_blank"> <i className="fab fa-linkedin fa-5x"></i></a>
