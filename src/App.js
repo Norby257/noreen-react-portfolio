@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
 import Bio from "./components/Bio"
-import Contact from "./components/Contact"
 import BlogList from "./containers/BlogList"
 import { Route } from "react-router-dom"
 import Projects from "./projects.json"
@@ -17,7 +16,6 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Route exact path="/" exact component={Profile} />
-        <Route exact path="/contact" exact component={Contact} />
         <Route exact path="/blog" exact compoent={BlogList} />
      
       </div>
