@@ -1,10 +1,11 @@
 import React from 'react' 
 const myJumbotronStyle = {
-  backgroundImage:  'url(https://images6.alphacoders.com/696/696661.jpg)',
+  backgroundImage:  'url(./portfolio_jumbotron_img.png)',
   backgroundSize: 'cover',
   minHeight: 700
 
 }
+
 const Jumbotron = () => {
   return (
 
