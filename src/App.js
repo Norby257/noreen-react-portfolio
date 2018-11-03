@@ -1,15 +1,15 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
-import Bio from "./Bio"
-import Contact from "./Contact"
-import BlogList from "./BlogList"
+import Bio from "./components/Bio"
+import Contact from "./components/Contact"
+import BlogList from "./containers/BlogList"
 import { Route } from "react-router-dom"
 import Projects from "./projects.json"
-import NavBar from './NavBar'
-//  import ProjectList from './ProjectList';
+import NavBar from './components/NavBar'
+//  import ProjectList from './containers/ProjectList';
 //   import Project from './Project';
-import Profile from "./Profile"
+import Profile from "./components/Profile"
 
 class App extends Component {
   render() {
