@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-
+// refactor this to class component ? 
 
 const BlogList = (props) => {
     return (
