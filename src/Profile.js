@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import ProfileBlurb from './ProfileBlurb';
-import Image from './Image';
 export default class Profile extends React.Component {
    constructor(props) {
        super(props); 
@@ -21,7 +20,7 @@ export default class Profile extends React.Component {
    render() {
        return (
         <div className="Profile">
-        <Image  />
+    
         <ProfileBlurb person={this.state.person} quote={this.state.quote} />
       </div>
        )
