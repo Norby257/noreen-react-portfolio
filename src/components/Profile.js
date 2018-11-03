@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Jumbotron from './Jumbotron'
-
+import ProjectList from '../containers/ProjectList'
 
 const  Profile  = () => {
 
@@ -8,6 +8,8 @@ const  Profile  = () => {
         <div className="Profile">
            
             <Jumbotron />
+            <ProjectList />
+
 
               
       </div>
