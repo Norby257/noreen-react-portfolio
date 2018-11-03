@@ -28,11 +28,17 @@ const NavBar = () => {
               <NavLink to="/" exact activeClassName="active">
                 Applications Built
               </NavLink>
-              <span className="sr-only">(current)</span>
+              {/* <span className="sr-only">(current)</span> */}
             </li>
             <li>
               <NavLink to="/blog" activeClassName="active">
                 Fraud Prevention blog
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink to="/bio" activeClassName="active">
+                About Me
               </NavLink>
             </li>
 
